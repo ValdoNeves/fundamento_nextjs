@@ -1,10 +1,20 @@
+import { useState } from "react";
 import Layout from "../components/Layout";
 
 export default function Estado() {
-  let numero = 3
+  
+  const [numero, setNumero] = useState(0)
+  
+
+  
+
+  function incrementar(){
+    setNumero(numero + 1)
+  }
   return (
     <Layout titulo="Componente com Estado">
-      <span>{numero}</span>
+      <div>{numero}</div>
+      <button onClick={incrementar}>Incrementar</button>
     </Layout>
   )
 }
