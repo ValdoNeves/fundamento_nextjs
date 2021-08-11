@@ -1,7 +1,9 @@
 .roxo{
   background-color: #670bbd;
   color: #fff;
-  height: 100vh;
+  height: 100%;
+  border-radius: 5px;
+  
 }
 
 .roxo h1 {
