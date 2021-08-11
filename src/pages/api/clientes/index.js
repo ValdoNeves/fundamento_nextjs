@@ -11,5 +11,6 @@ function handlerGet(req, res) {
     id: 3,
     nome: 'Maria',
     idade: 33
+    
   })
 }
